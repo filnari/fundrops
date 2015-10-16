@@ -1,0 +1,5 @@
+name: FunDrops
+main: filnari.fundrops.main.guts
+version: 0.0.1
+author: Filnari
+description: Things drop other things
