@@ -98,58 +98,6 @@ public class guts extends JavaPlugin implements Listener {
 
 		}
 	}
-/*
-@EventHandler
-	public void arrowshot(EntityShootBowEvent e){
-		final JavaPlugin plugin = this;
-		// If first line of Lore is "LightBringer" then
-		// Entity ent = event.getEntity();
-		// Player player = event
-		// PlayerInventory playerInv = player.getInventory();
-		//  if (playerInv.getItemInHand().getItemMeta().hasLore()){
-		//	if (playerInv.getItemInHand().getItemMeta().getLore().equals("LightBringer")){
-		//		player.sendMessage("Light!");
-				// assign dummy NBT tag to projectile?
-		//	}
-		Bukkit.broadcastMessage(ChatColor.YELLOW+"projectile shot");
-		if (e.getProjectile() instanceof Arrow) {
-			Arrow a = (Arrow) e.getProjectile();
-			Player p = (Player) a.getShooter();
-			p.sendMessage("Projectile is an arrow");
-			if (a.getShooter() instanceof Player) {
-				p.sendMessage("Shooter is a player");
-				PlayerInventory playerInv = p.getInventory();
-				if (playerInv.getItemInHand().getItemMeta().hasLore()){
-					p.sendMessage("Has Lore!");
-					if (playerInv.getItemInHand().getItemMeta().getLore().contains("LightBringer")) {
-						// p.sendMessage( "lore here" );
-						p.sendMessage("Let there be light!");
-						// Tag the arrow with light metadata
-						e.getProjectile().setMetadata("Light", new FixedMetadataValue(plugin,"1"));
-						
-					}
-				}
-			}
-		}
-		
-	}
-
-	public void arrowhit(ProjectileHitEvent e) {
-		Bukkit.broadcastMessage(ChatColor.YELLOW+"Projectile hit");
-		if (e.getEntity() instanceof Arrow) {
-			Bukkit.broadcastMessage(ChatColor.YELLOW+"Arrow hit");
-			if (e.getEntity().hasMetadata("Light")) {
-				Bukkit.broadcastMessage(ChatColor.YELLOW+"Light planted!");
-			}
-		}
-	}
-	public void arrowhit2(ArrowHitBlockEvent e) {
-		Bukkit.broadcastMessage(ChatColor.GREEN+"Arrow hit");
-		if (e.getArrow().hasMetadata("Light")) {
-			Bukkit.broadcastMessage(ChatColor.GREEN+"Light it!");
-			}
-	}
-*/
 
 }
 
