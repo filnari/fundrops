@@ -1,4 +1,4 @@
-package filnari.fundrops.main;
+package org.filnari.fundrops.main;
 
 // import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -45,7 +45,7 @@ public class guts extends JavaPlugin implements Listener {
 		World world = event.getBlock().getWorld();
 		// Drop it
 		world.dropItem(event.getBlock().getLocation(),item);
-		getLogger().info("Dropped a stick");
+		// getLogger().info("Dropped a stick");
 		}
 	}
 @EventHandler
