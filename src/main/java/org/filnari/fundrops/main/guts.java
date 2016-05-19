@@ -88,7 +88,7 @@ public class guts extends JavaPlugin implements Listener {
 				World world = b.getWorld();
 				world.dropItem(b.getLocation(), item);
 				// tell player "That's hard work. Have a cookie!"
-				p.sendMessage("ChatColor.AQUA + That's hard work. Have a cookie!");
+				p.sendMessage(ChatColor.AQUA + "That's hard work. Have a cookie!");
 				// and log it
 				getLogger().info("Gave a cookie to " + p.getName() );
 			}
